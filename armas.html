@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/armas.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="shortcut icon" href="img/favicon.ico" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>Armas</title>
+</head>
+<body>
+        <div class="menu">
+            <ul>
+                    <li id='pubg'><img class="pub" src="img/pubb.png"></li>
+                    <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+                    <li><a href="mapas.html"><i class="fas fa-map"></i> Mapas</a></li>
+                    <li><a href="armas.html"><i class="fas fa-crosshairs"></i> Armas</a></li>
+                </ul>    
+            </nav>
+        </div>
+    <main>
+    <div class="sumario" id="sumario">
+    <dl>
+        <ul><h1>Tipos de Armas</h1></ul>         
+    </dl>
+    </div>
+        <div>
+            <div class="card text-center">
+                <div class="card-header"></div>                      
+                <div class="card-body">
+                  <nav class="navbar navbar-light bg-light">
+                    <form class="form-inline">
+                        <div class="nome">
+                            <h5 style="margin-top:5px;">Nome:</h5>
+                            <input style="margin-left:10px;" class="form-control mr-sm-2" id="filter-nome" type="search" aria-label="Nome">
+                        </div>
+                        <div class="tipo">
+                            <h5>Tipo:</h5>
+                            <select id="filter-type">
+                                <option value="Todos">Todos</option>
+                                <option value="DMR">DMR</option>
+                                <option value="Sniper">Sniper</option>
+                                <option value="Rifle de Assalto">Rifle de Assalto</option>
+                                <option value="Submetralhadora">Submetralhadora</option>
+                                <option value="Escopeta">Escopeta</option>
+                                <option value="Armas Especiais">Armas Especiais</option>
+                                <option value="Pistola">Pistola</option>
+                            </select>
+                        </div>
+                        
+                    </form>
+                    
+                  </nav>
+                </div>
+              </div>         
+            <div class="container-armas">     
+                <h2 class="center"></h2>     
+                <div class="linha">
+                    
+                </div>
+            </div>
+            
+        </div>               
+    </main>
+
+
+    <div id="box-status" class="box-container ">
+        <div class="box">
+        
+        </div>
+    </div>
+    
+    <script src="js/armasLista.js"></script>
+    <script src="js/armas.js"></script>
+    
+    
+</body>
+</html>
+
