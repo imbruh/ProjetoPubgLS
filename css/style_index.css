@@ -71,7 +71,19 @@ div.menu:hover {
 }
 
 /*============= FIM DO MENU =================*/
+.arma{
+    background-color: rgb(165, 165, 165);
+    border: 2px solid black;
+    padding-left: 5px;
+    color: black;
+}
+.arma img{
+    padding-top: 10px;
+}
 
+.att{
+    margin-left: 20px;
+}
 
 .texto {
     font-family: 'Raleway', sans-serif;
