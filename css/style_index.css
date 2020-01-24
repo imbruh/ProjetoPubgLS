@@ -60,17 +60,32 @@ div.menu:hover {
     }
 }
 
-
 #logo {
-    height: 300px;
+    height: 250px;
     background-image: url(../img/pubgnav.jpeg);
     background-attachment: fixed;
     background-size: contain;
     background-position-y: 15%;
     background-repeat: no-repeat;
 }
-
 /*============= FIM DO MENU =================*/
+
+#title-text{
+    padding-top:15px;
+    padding-left: 5px;
+}
+.video{
+    display:flex;
+    justify-content: center;
+}
+#video{
+    width:450px;
+    height:300px; 
+}
+.texto {
+    font-family: 'Raleway', sans-serif;
+    margin-left:10px;
+}
 .arma{
     background-color: rgb(165, 165, 165);
     border: 2px solid black;
@@ -78,23 +93,18 @@ div.menu:hover {
     color: black;
 }
 .arma img{
-    padding-top: 10px;
+    padding-top: 20px;
 }
 
 .att{
     margin-left: 20px;
 }
 
-.texto {
-    font-family: 'Raleway', sans-serif;
-    margin-left:10px;
-    margin-right: 10px
+.btn-arma{
+    margin-left: 50%;
 }
 
-.frame {
-    display:flex;
-    justify-content: center;
-}
+
 
 footer {
     height:200px;
@@ -117,34 +127,59 @@ footer i {
     color: yellow
 }
 
-@media all and (min-width:960px){
+@media all and (min-width:950px){
     main {
         display:flex;
     }
-    iframe {
-        margin-top:35px;
-        margin-right:10px;
-    }
-    .menu ul {
-        display:flex;
-        justify-content: space-around;
-    }
-    .texto {
-        margin-top:35px;
-    }
-}
-
-@media all and (min-width:1020px){
     #logo {
-        height: 400px;
+        height: 380px;
         background-image: url(../img/pubgnav.jpeg);
         background-attachment: fixed;
         background-size: cover;
         background-position-y: 15%;
         background-repeat: no-repeat;
     }
+    #video {
+        margin-top:65px;
+        height:400px;
+        width:600px;
+    }
+    .menu ul {
+        display:flex;
+        justify-content: space-around;
+    }
+    
 }
 
+@media all and (min-width:1020px){
+    #logo {
+        background-image: url(../img/pubgnav.jpeg);
+        background-attachment: fixed;
+        background-size: cover;
+        background-position-y: 15%;
+        background-repeat: no-repeat;
+    }
+    .game{
+        display:flex;
+    }
+    
+    .texto{
+        width:50%;
+    }
+    #video {
+        height: 350px;
+        width:500px;
+        margin-left:0px;
+        
+    }
+}
+
+@media all and (min-width:1300px){
+    #video{
+        height: 420px;
+        width:630px;
+    }
+}
 .user{
     display:flex;
     align-items:center;

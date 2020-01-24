@@ -17,16 +17,3 @@ const mapas = [
     }
     
 ]
-
-/*
-const mapaArea = document.querySelector('main')
-result=''
-for (i of mapas){
-    result+=`<div class="${i.nome}">
-                <h2>${i.nome.toUpperCase()}</h2>
-                <img class="mapa" src="mapas/${i.img}.jpg">
-            </div>`
-}
-
-mapaArea.innerHTML=result
-*/

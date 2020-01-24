@@ -100,14 +100,16 @@ h3 {
     }
 }   
 
-
+.carousel-inner{
+    display: flex;
+    align-items: center;
+}
 
 .center{
     display: flex;
     justify-content: center;
     margin-top: 20px;
 }
-
 
 .img-responsive {
     margin: 0 auto;

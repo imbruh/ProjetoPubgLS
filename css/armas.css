@@ -101,14 +101,16 @@ img{
 .linha{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-    padding-left: 130px;
+    justify-content: center;
+    padding-left:130px;
 }
 .box-arma{
-    width:400px;
     
+    width:400px;
 }
-
+.position{
+    margin-left: 10px;
+}
 @media all and (min-width:960px) {
     .menu ul {
         display:flex;
@@ -118,7 +120,8 @@ img{
 
 
 .nome, .tipo{
-    display: flex;  
+    display: flex;
+    
 }
 
 #filter-nome{
@@ -164,7 +167,6 @@ img{
     box-shadow:0 0 0 5px yellow;
     position: relative;
 }
-
 .fechar{
     font-weight: bolder;
     background:white;
