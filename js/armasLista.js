@@ -1,14 +1,4 @@
-const ArmasList=[
-    {
-    "nome":"Mini 14",
-    "tipo":"DMR",
-    "dano":"44",
-    "carregador":"20",	
-    "calibre":"5.56 mm",
-    "modo_de_tiro":"Semi",
-    "disponivel":"Todos os Mapas" 
-    },
-    
+const ArmasList=[  
     {
     "nome":"SKS",
     "tipo":"DMR",
